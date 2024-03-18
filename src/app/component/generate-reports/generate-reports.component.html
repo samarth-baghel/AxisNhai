@@ -1,0 +1,123 @@
+<div id="body" class="genReportBody">
+  <div class="hrader">
+    <div>
+      <h5>Generate Reports</h5>
+      <div class="radio-btns radio">
+
+        <label class="color radiolft" for="amtRupees"><input class="amtRupees" type="radio" id="amtRupees"
+            value="Amount in Rupees" name="Amount" [(ngModel)]='radioValue2'
+            (change)="onItemChange(radioValue2)" />Amount
+          in Rupees</label>
+        &nbsp;
+
+        <label class="color radiolft" for="amtCrores"><input class="amtCrores" type="radio" id="amtCrores"
+            value="Amount in Crores" name="Amount" [(ngModel)]='radioValue2'
+            (change)="onItemChange(radioValue2)" />Amount
+          in Crores </label>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <table>
+      <tr>
+        <td>
+          <mat-label class="reportLabel">Ageing Report Account wise</mat-label>
+        </td>
+        <td>
+          <!-- <mat-form-field appearance="outline" class="crReportdate">
+            <mat-label>From Date</mat-label>
+            <input matInput [matDatepicker]="picker" class="color" [(ngModel)]='fromdate' readonly>
+            <mat-datepicker-toggle matSuffix [for]="picker" class="color"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+          </mat-form-field>
+          &nbsp;
+          <mat-form-field appearance="outline" class="crReportdate">
+            <mat-label>To Date</mat-label>
+            <input matInput [matDatepicker]="picker2" class="color" [(ngModel)]='todate' [min]='fromdate' [max]='today'
+              readonly>
+            <mat-datepicker-toggle matSuffix [for]="picker2" class="color"></mat-datepicker-toggle>
+            <mat-datepicker #picker2></mat-datepicker>
+          </mat-form-field> -->
+          <mat-form-field appearance="outline" class="crReportdate">
+            <mat-label>Date</mat-label>
+            <input matInput [matDatepicker]="picker2" [max]="today" class="color" [(ngModel)]='dateValue2' readonly>
+            <mat-datepicker-toggle matSuffix [for]="picker2" class="color"></mat-datepicker-toggle>
+            <mat-datepicker #picker2></mat-datepicker>
+          </mat-form-field>
+        </td>
+        <td>
+          <!-- <button mat-raised-button id="genROBOByDayReport" value="Amount in Rupees" class="genReport"
+            (click)="onROBOByDayClk(fromdate,todate)">
+            <span class="genReportTxt">Generate Report</span>
+            <img src="assets/img/excel.png" width="24px" height="24px" style="margin-left: 5px;margin-top: 2px;">
+          </button> -->
+          <button mat-raised-button id="genROBOByDayReport" value="Amount in Rupees" class="genReport"
+            (click)="onROBOByDayClk(dateValue2)">
+            <span class="genReportTxt">Generate Report</span>
+            <img src="assets/img/excel.png" width="24px" height="24px" style="margin-left: 5px;margin-top: 2px;">
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <mat-label class="reportLabel">Ageing Report RO & PD</mat-label>
+        </td>
+        <td>
+          <mat-form-field appearance="outline" class="crReportdate">
+            <mat-label>Date</mat-label>
+            <input matInput [matDatepicker]="picker3" [max]="today" class="color" [(ngModel)]='dateValue3' readonly>
+            <mat-datepicker-toggle matSuffix [for]="picker3" class="color"></mat-datepicker-toggle>
+            <mat-datepicker #picker3></mat-datepicker>
+          </mat-form-field>
+        </td>
+        <td>
+          <button mat-raised-button id="genROByBracketReport" class="genReport"
+            (click)="onROPDBrackertWiseClk(dateValue3)">
+            <span class="genReportTxt">Generate Report</span>
+            <img src="assets/img/excel.png" width="24px" height="24px" style="margin-left: 5px;margin-top: 2px;">
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <mat-label class="reportLabel">Monthly Report</mat-label>
+        </td>
+        <td>
+          <form>
+            <mat-form-field appearance="fill">
+              <mat-label>Select Financial Year</mat-label>
+              <mat-select [(ngModel)]='FY' name="Year">
+                <mat-option [value]='i' *ngFor="let year of years; let i=index">
+                  {{year.viewValue }}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </form>
+        </td>
+        <td>
+          <button mat-raised-button id="genMonthBracketReport" class="genReport" (click)="onMonthlyReport(FY)"
+         >
+            <span class="genReportTxt">Generate Report</span>
+            <img src="assets/img/excel.png" width="24px" height="24px" style="margin-left: 5px;margin-top: 2px;">
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <mat-label class="reportLabel">Credit Report</mat-label>
+        </td>
+        <td>
+          <button mat-raised-button id="genCRReport" class="genReportSpecial" (click)="onCRGenerateReportClk()">
+            <span class="genReportTxt">Generate Report</span>
+            <img src="assets/img/excel.png" width="24px" height="24px" style="margin-left: 5px;margin-top: 2px;">
+          </button>
+        </td>
+        <td>
+
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>

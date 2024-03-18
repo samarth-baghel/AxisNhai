@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FIXML xmlns="http://www.finacle.com/fixml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.finacle.com/fixml executeFinacleScript.xsd">
+    <Header>
+        <ResponseHeader>
+            <RequestMessageKey>
+                <RequestUUID>SS20_ss02_sd547774_6855_975455</RequestUUID>
+                <ServiceRequestId>executeFinacleScript</ServiceRequestId>
+                <ServiceRequestVersion>10.2</ServiceRequestVersion>
+                <ChannelId>COR</ChannelId>
+            </RequestMessageKey>
+            <ResponseMessageInfo>
+                <BankId>01</BankId>
+                <TimeZone/>
+                <MessageDateTime>2020-06-19T12:04:06.286</MessageDateTime>
+            </ResponseMessageInfo>
+            <UBUSTransaction>
+                <Id/>
+                <Status/>
+            </UBUSTransaction>
+            <HostTransaction>
+                <Id/>
+                <Status>SUCCESS</Status>
+            </HostTransaction>
+            <HostParentTransaction>
+                <Id/>
+                <Status/>
+            </HostParentTransaction>
+            <CustomInfo/>
+        </ResponseHeader>
+    </Header>
+    <Body>
+        <executeFinacleScriptResponse>
+            <ExecuteFinacleScriptOutputVO/>
+            <executeFinacleScript_CustomData>
+                <AccountNumber_1>918029042416468</AccountNumber_1>
+                <AccountNumber_2>918029042416482</AccountNumber_2>
+                <AccountNumber_3>918029042416499</AccountNumber_3>
+                <AccountNumber_4>918029042416514</AccountNumber_4>
+                <SuccessOrFailure>S</SuccessOrFailure>
+                <ErrorDesc>SUCCESS</ErrorDesc>
+            </executeFinacleScript_CustomData>
+        </executeFinacleScriptResponse>
+    </Body>
+</FIXML>

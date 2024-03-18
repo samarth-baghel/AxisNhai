@@ -1,0 +1,102 @@
+[
+    {
+        "no": "1",
+        "beneficiarybankname": "NA",
+        "beneficiaryname": "NA",
+        "balance": "2000106520.00",
+        "debitAct": "918019042416977",
+        "calaActName": "NHAI MAIN CIF MUMBAI",
+        "ifsicode": "NA",
+        "beneficiarybankaccount": "NA"
+    },
+    {
+        "no": "2",
+        "beneficiarybankname": "NA",
+        "beneficiaryname": "ACCUMULATED DEP-FURNITURE  FIXTURES",
+        "balance": "1000103520.00",
+        "debitAct": "918019042416977",
+        "calaActName": "NHAI MAIN CIF MUMBAI",
+        "ifsicode": "UTIB0000ETC",
+        "beneficiarybankaccount": "2780175002004"
+    },
+    {
+        "no": "3",
+        "beneficiarybankname": "NA",
+        "beneficiaryname": "NA",
+        "balance": "1000216040.00",
+        "debitAct": "918019042416977",
+        "calaActName": "NHAI MAIN CIF MUMBAI",
+        "ifsicode": "NA",
+        "beneficiarybankaccount": "NA"
+    },
+    {
+        "no": "4",
+        "beneficiarybankname": "NA",
+        "beneficiaryname": "AWSOD LALA MANECIUNI MPALCH R REILDSCNS HOOL",
+        "balance": "1000006520.00",
+        "debitAct": "918019042416977",
+        "calaActName": "NHAI MAIN CIF MUMBAI",
+        "ifsicode": "UTIB0000ETC",
+        "beneficiarybankaccount": "916010022879843"
+    },
+    {
+        "no": "5",
+        "beneficiarybankname": "NA",
+        "beneficiaryname": "AWSOD LALA MANECIUNI MPALCH R REILDSCNS HOOL",
+        "balance": "1000006520.00",
+        "debitAct": "918019042416977",
+        "calaActName": "NHAI MAIN CIF MUMBAI",
+        "ifsicode": "UTIB0000ETC",
+        "beneficiarybankaccount": "916010022879843"
+    },
+    {
+        "no": "6",
+        "beneficiarybankname": "NA",
+        "beneficiaryname": "ANTHONY",
+        "balance": "1000006520.00",
+        "debitAct": "918019042416977",
+        "calaActName": "NHAI MAIN CIF MUMBAI",
+        "ifsicode": "BARB0SUMERP",
+        "beneficiarybankaccount": "1234567"
+    },
+    {
+        "no": "7",
+        "beneficiarybankname": "NA",
+        "beneficiaryname": "GANESH",
+        "balance": "1000006520.00",
+        "debitAct": "918019042416977",
+        "calaActName": "NHAI MAIN CIF MUMBAI",
+        "ifsicode": "CBIN0283341",
+        "beneficiarybankaccount": "98765431"
+    },
+    {
+        "no": "8",
+        "beneficiarybankname": "NA",
+        "beneficiaryname": "AUTOMOTIVE MANU/STATE BANK OF",
+        "balance": "1000095520.00",
+        "debitAct": "918019042416977",
+        "calaActName": "NHAI MAIN CIF MUMBAI",
+        "ifsicode": "UTIB0000ETC",
+        "beneficiarybankaccount": "NA"
+    },
+    {
+        "no": "9",
+        "beneficiarybankname": "NA",
+        "beneficiaryname": "NA",
+        "balance": "1000109520.00",
+        "debitAct": "918019042416977",
+        "calaActName": "NHAI MAIN CIF MUMBAI",
+        "ifsicode": "NA",
+        "beneficiarybankaccount": "NA"
+    },
+    {
+        "no": "10",
+        "beneficiarybankname": "NA",
+        "beneficiaryname": "NA",
+        "balance": "999847120.00",
+        "debitAct": "918019042416977",
+        "calaActName": "NHAI MAIN CIF MUMBAI",
+        "ifsicode": "NA",
+        "beneficiarybankaccount": "NA"
+    }
+]

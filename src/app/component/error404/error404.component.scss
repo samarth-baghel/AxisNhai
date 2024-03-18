@@ -1,0 +1,28 @@
+
+.error404{
+    background-image: url("/assets/img/errorBg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.errorstr{
+    background-image: url("/assets/img/cloudeBg.png");
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+.oppsText {
+    margin-top: 60px;
+    margin-left: 125px;
+}
+.oppsText h2{
+    color: #97144d;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.oppsText a{
+    font-weight: 600;
+}

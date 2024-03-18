@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FIXML xmlns="http://www.finacle.com/fixml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.finacle.com/fixml executeFinacleScript.xsd">
+    <Header>
+        <ResponseHeader>
+            <RequestMessageKey>
+                <RequestUUID>SS20_ss02_sd547774_6855_75455</RequestUUID>
+                <ServiceRequestId>executeFinacleScript</ServiceRequestId>
+                <ServiceRequestVersion>10.2</ServiceRequestVersion>
+                <ChannelId>COR</ChannelId>
+            </RequestMessageKey>
+            <ResponseMessageInfo>
+                <BankId>01</BankId>
+                <TimeZone/>
+                <MessageDateTime>2020-06-26T11:14:17.006</MessageDateTime>
+            </ResponseMessageInfo>
+            <UBUSTransaction>
+                <Id/>
+                <Status/>
+            </UBUSTransaction>
+            <HostTransaction>
+                <Id/>
+                <Status>SUCCESS</Status>
+            </HostTransaction>
+            <HostParentTransaction>
+                <Id/>
+                <Status/>
+            </HostParentTransaction>
+            <CustomInfo/>
+        </ResponseHeader>
+    </Header>
+    <Body>
+        <executeFinacleScriptResponse>
+            <ExecuteFinacleScriptOutputVO/>
+            <executeFinacleScript_CustomData>
+                <CALASummaryDtl>
+                    <acctNum_1>918029042416468</acctNum_1>
+                    <acctName_1>NHAI MAIN CIF DELHI</acctName_1>
+                    <OpenBal_1>0</OpenBal_1>
+                    <ClosingBal_1>898100.00</ClosingBal_1>
+                    <pendingAdj_1>0</pendingAdj_1>
+                    <UTILISED_LIMIT_1>0</UTILISED_LIMIT_1>
+                    <ALLOCATEDLIMITS_1>1000000</ALLOCATEDLIMITS_1>
+                    <acctNum_2>918029042416482</acctNum_2>
+                    <acctName_2>NHAI MAIN CIF  AHMEDABAD</acctName_2>
+                    <OpenBal_2>890000.00</OpenBal_2>
+                    <ClosingBal_2>890000.00</ClosingBal_2>
+                    <pendingAdj_2>0</pendingAdj_2>
+                    <UTILISED_LIMIT_2>0</UTILISED_LIMIT_2>
+                    <ALLOCATEDLIMITS_2>4000000</ALLOCATEDLIMITS_2>
+                </CALASummaryDtl>
+                <totRecCnt>3</totRecCnt>
+                <sucFaiFlag>S</sucFaiFlag>
+                <message>SUCCESS</message>
+            </executeFinacleScript_CustomData>
+        </executeFinacleScriptResponse>
+    </Body>
+</FIXML>

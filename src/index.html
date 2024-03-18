@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>AxisNHAI</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" type="text/css" href="./assets/scripts/Lato.css"/>
+  <link rel="stylesheet" href="./assets/scripts/MatIcons.css">
+  <script src="./assets/scripts/aes.js"></script>
+  <script src="./assets/scripts/html2canvas.js"></script>
+  <link rel="stylesheet" href="./assets/scripts/bootstrap.css">
+</head>
+<body>
+  <app-root></app-root>
+  <script>
+    // Disable right-click
+      document.addEventListener('contextmenu', (e) => e.preventDefault());
+
+      function ctrlShiftKey(e, keyCode) {
+        return e.ctrlKey && e.shiftKey && e.keyCode === keyCode.charCodeAt(0);
+      }
+
+      document.onkeydown = (e) => {
+        // Disable F12, Ctrl + Shift + I, Ctrl + Shift + J, Ctrl + U
+        if (
+          event.keyCode === 123 ||
+          ctrlShiftKey(e, 'I') ||
+          ctrlShiftKey(e, 'J') ||
+          ctrlShiftKey(e, 'C') ||
+          (e.ctrlKey && e.keyCode === 'U'.charCodeAt(0))
+        )
+          return false;
+      };
+  </script>
+</body>
+</html>

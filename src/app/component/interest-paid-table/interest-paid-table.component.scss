@@ -1,0 +1,98 @@
+#body{
+  overflow-x:hidden;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+h1{
+  display: inline;
+  font-weight: 500;
+}
+.tbla{
+  display: table;
+  margin-left: 0px;
+  margin-bottom: 50px;
+  width: 100%;
+  }
+  .tblb{
+    display: table-row; 
+    width: 100%;
+    justify-content:space-between;
+  }
+  .tblc{
+    display: table-cell;
+    margin-right: 0px;
+  }
+  .tbld{
+    display: table-cell;
+  }
+  .tblcount{
+    cursor: pointer;
+    color: rgb(151,20,77);
+  }
+  table {
+      width: 90%;
+      height: 15%;
+     background-color: white;
+    }
+    .mat-cell{
+     color: black;
+     font-family: 'Lato';
+    }
+  
+    .mat-header-cell{
+      color:white;
+      font-family: 'Lato';
+      font-size: 14px;
+      
+    }
+    .right{
+       text-align: right;
+   }  
+    .mat-header-row {
+        background-color:rgb(151,20,77) ;
+    }
+  
+    .row{
+        color:black;
+    }
+    hr{
+      border-bottom: 1px solid rgb(151,20,77) ;
+      height: 1px;
+      width: 80%;
+      background-color:rgb(151,20,77)  ;
+    }
+  
+    tr,td,th{
+        //border:1px solid #ced4da;
+        border:1px solid black ;
+        width: 500px;
+    }
+  
+    h5 {
+      color:black;
+      font-family: 'Lato';
+    }
+    .color{
+      color: black;
+      font-family: 'Lato';
+      font-size:16px;
+    }
+    .AmountStyle{
+      width:18px;height:10px;
+      cursor:pointer;
+    }
+    .mat-raised-button{
+      color: #ffffff;
+      background-color: #97144d;
+      height: 25px;
+      min-width: 30px !important;
+      line-height: 0px !important;
+      padding: 0 10px;
+      margin-left: 27vw;
+      box-shadow: none;
+      margin-bottom: 7vh;
+  }
+  .numberPadding{
+    text-align: center;
+  }

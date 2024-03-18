@@ -1,0 +1,61 @@
+<div class="bgclr">
+    <!-- limit lewdger label tag   -->
+   <div class="col-sm-8 header">
+       <h4 class="headerclr" mat-dialog-title>Pending Adjustments Details</h4>
+   </div>
+   <br/>
+   <mat-dialog-content >
+    <div class="tbl">
+        <table mat-table [dataSource]="dataSource" class="mat-elevation-z8 ">
+    
+            <ng-container matColumnDef="no">
+                <th mat-header-cell class="sr" *matHeaderCellDef> S.NO. </th>
+                <td mat-cell class="sr" *matCellDef="let element"> {{element.no}} </td>
+              </ng-container>
+
+            <ng-container matColumnDef="accountno">
+                <th mat-header-cell class="numberPadding" *matHeaderCellDef>Account Number </th>
+                <td mat-cell class="numberPadding" *matCellDef="let element"> {{element.AccountNumber | maskData:4}} </td>
+            </ng-container>
+            
+            <ng-container matColumnDef="holdername">
+                <th mat-header-cell class="sr" *matHeaderCellDef>Account Name</th>
+                <td mat-cell class="sr" *matCellDef="let element"> {{element.acct_name}} </td>
+            </ng-container>
+
+            <ng-container matColumnDef="opendate">
+                <th mat-header-cell class="sr" *matHeaderCellDef> Account Open Date </th>
+                <td mat-cell class="right"  *matCellDef="let element"> {{element.acct_opn_date}} </td>
+            </ng-container>
+
+            <ng-container matColumnDef="month">
+                <th mat-header-cell class="sr" *matHeaderCellDef>Month</th>
+                <td mat-cell class="sr"  *matCellDef="let element">{{element.tran_date}} </td>
+            </ng-container>
+
+            <ng-container matColumnDef="debitcredit">
+                <th mat-header-cell class="sr" *matHeaderCellDef>Debit/Credit</th>
+                <td mat-cell class="sr" *matCellDef="let element"> {{element.part_tran_type}} </td>
+            </ng-container>
+
+            
+            <ng-container matColumnDef="transparticulars">
+                <th mat-header-cell class="sr" *matHeaderCellDef>Tran Particulars</th>
+                <td mat-cell class="sr" *matCellDef="let element"> {{element.tran_particular}} </td>
+            </ng-container>
+    
+
+            <ng-container matColumnDef="amount">
+                <th mat-header-cell class="numberPadding" *matHeaderCellDef>Amount</th>
+                <td mat-cell class="numberPadding" *matCellDef="let element"> {{element.tran_amt | customCurrencyPipe}} </td>
+            </ng-container>
+
+          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+        </table>
+      </div>
+    </mat-dialog-content>
+
+    <button mat-raised-button  mat-dialog-close class="btn">Close</button>
+
+</div>

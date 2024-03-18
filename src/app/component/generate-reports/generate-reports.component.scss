@@ -1,0 +1,116 @@
+.radio{
+  margin-left: 57%;margin-right:5%;float: right;
+}
+.radiolft{
+  margin-left: 0px;
+}
+.genReport {
+  margin-left: 5px;
+  background-color: rgb(151, 20, 77);
+  padding: 0px 30px;
+  margin-top: 4px;
+  height: 42px;
+  color: white;
+}
+
+
+.genReportSpecial{
+  margin-left: 5px;
+  background-color: rgb(151, 20, 77);
+  padding: 0px 30px;
+  margin-top: 25px;
+  height: 42px;
+  color: white;
+}
+
+.hrader {
+  display: flex;
+  flex-direction: column;
+    padding-top: 25px;
+    font-weight: 1000;
+    width: 100%;    
+}
+
+.color {
+  color: black;
+  font-family: 'Lato';
+}
+
+.crReportdate {
+    margin-left: 5px;
+    margin-top: 25px;
+    width: 10rem
+}
+
+.reportLabel{
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+#body {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 526px;
+}
+
+.mat-header-cell {
+    color: white;
+    font-family: 'Lato';
+}
+
+.genReportTxt {
+  float: left;
+  margin-left: 10px;
+  float:right;
+}
+
+.genReportBody {
+  margin-left: 30px;
+}
+
+::ng-deep .mat-select-value {
+  color: rgb(151, 20, 77);
+  font-weight: bold;
+  font-size: 15px;
+}
+
+::ng-deep .mat-select-arrow {
+  color: rgb(151, 20, 77);
+}
+
+::ng-deep .mat-form-field-flex {
+  align-items: center !important;
+}
+
+::ng-deep .mat-form-field-infix {
+  margin-left: 2px;
+  padding-top: 0.1em !important;
+  padding-bottom: 14px !important;
+}
+
+::ng-deep .mat-form-field-appearance-legacy .mat-form-field-underline {
+  background-color: transparent;
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+  color: #97144d !important;
+  opacity: 1;
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline-thick {
+  color: #97144d !important;
+  opacity: 1;
+}
+
+::ng-deep .mat-form-field-appearance-outline.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label {
+  color: #97144d !important;
+}
+
+::ng-deep .mat-form-field-label {
+  color: #97144d !important;
+  font-family: Lato !important;
+}
+
+::ng-deep .mat-form-field-flex{
+  margin-top: 50px;
+}

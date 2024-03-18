@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FIXML xmlns="http://www.finacle.com/fixml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.finacle.com/fixml executeFinacleScript.xsd">
+    <Header>
+        <ResponseHeader>
+            <RequestMessageKey>
+                <RequestUUID>SS092_ss04614_md02_ss012</RequestUUID>
+                <ServiceRequestId>executeFinacleScript</ServiceRequestId>
+                <ServiceRequestVersion>10.2</ServiceRequestVersion>
+                <ChannelId>COR</ChannelId>
+            </RequestMessageKey>
+            <ResponseMessageInfo>
+                <BankId>01</BankId>
+                <TimeZone/>
+                <MessageDateTime>2020-06-26T10:48:12.467</MessageDateTime>
+            </ResponseMessageInfo>
+            <UBUSTransaction>
+                <Id/>
+                <Status/>
+            </UBUSTransaction>
+            <HostTransaction>
+                <Id/>
+                <Status>SUCCESS</Status>
+            </HostTransaction>
+            <HostParentTransaction>
+                <Id/>
+                <Status/>
+            </HostParentTransaction>
+            <CustomInfo/>
+        </ResponseHeader>
+    </Header>
+    <Body>
+        <executeFinacleScriptResponse>
+            <ExecuteFinacleScriptOutputVO/>
+            <executeFinacleScript_CustomData>
+                <acct_opn_date_1>07-08-2018</acct_opn_date_1>
+                <tran_date_1>07-08-2018</tran_date_1>
+                <part_tran_type_1>C</part_tran_type_1>
+                <AccountNumber_1>918029042416482</AccountNumber_1>
+                <acct_name_1>NHAI MAIN CIF  AHMEDABAD</acct_name_1>
+                <tran_particular_1>TRF/ALANJAII JN/</tran_particular_1>
+                <tran_amt_1>1</tran_amt_1>
+                <acct_opn_date_2>07-08-2018</acct_opn_date_2>
+                <tran_date_2>07-08-2018</tran_date_2>
+                <part_tran_type_2>C</part_tran_type_2>
+                <AccountNumber_2>918029042416482</AccountNumber_2>
+                <acct_name_2>NHAI MAIN CIF  AHMEDABAD</acct_name_2>
+                <tran_particular_2>SAK/CASH DEP/SAK000553797/020/SELF</tran_particular_2>
+                <tran_amt_2>1</tran_amt_2>
+                <SuccessOrFailure>S</SuccessOrFailure>
+                <ErrorDesc>SUCCESS</ErrorDesc>
+            </executeFinacleScript_CustomData>
+        </executeFinacleScriptResponse>
+    </Body>
+</FIXML>

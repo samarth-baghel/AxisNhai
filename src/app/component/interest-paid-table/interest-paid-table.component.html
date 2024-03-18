@@ -1,0 +1,50 @@
+<main class="page-content">
+
+
+  <div class="container-fluid" id="body">
+    <h1 mat-dialog-title>{{homeValue.title}}</h1>
+
+    <!-- <button mat-raised-button (click)="btnCancel()" type="cancel">Cancel</button> -->
+    <button mat-raised-button mat-dialog-close type="close">X</button>
+
+
+    <div id="body">
+
+      <div>
+        <div class="tbla">
+
+          <div class="tblb">
+
+            <div class="tblc">
+              <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+                <ng-container matColumnDef="accountNumber">
+                  <th mat-header-cell class="sr" *matHeaderCellDef> Account Number </th>
+                  <td mat-cell class="right" *matCellDef="let element"> {{element.accountNumber | maskData:4}} </td>
+                </ng-container>
+                <ng-container matColumnDef="transactionDate">
+                  <th mat-header-cell class="sr" *matHeaderCellDef>Transaction Date </th>
+                  <td mat-cell class="right" *matCellDef="let element"> {{element.transactionDate}} </td>
+                </ng-container>
+                <ng-container matColumnDef="narration">
+                  <th mat-header-cell class="sr" *matHeaderCellDef>Narration </th>
+                  <td mat-cell class="right" *matCellDef="let element"> {{element.narration}} </td>
+                </ng-container>
+                <ng-container matColumnDef="interestPaid">
+                  <th mat-header-cell class="numberPadding" *matHeaderCellDef>Interest Paid </th>
+                  <td mat-cell class="numberPadding" *matCellDef="let element"> {{element.interestPaid |
+                    customCurrencyPipe }} </td>
+                </ng-container>
+
+                <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+              </table>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
